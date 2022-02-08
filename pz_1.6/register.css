@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Content */
+.content {
+    height: calc(100% - 170px - 80px);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-containerr {
+    width: 30rem;
+
+    border: 1px solid #555;
+}
+
+.form-title {
+    height: 3rem;
+    width: 100%;
+
+    background-color: rgb(114, 131, 204);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #f0f0f0;
+    font-weight: 700;
+}
+
+.register-form {
+    height: 25rem;
+    margin: 70px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-text-obertka {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.4rem;
+}
+
+.form-name {
+    width: 100%;
+    padding-bottom: 0.3rem;
+}
+
+.form-input {
+    width: 100%;
+    font-size: 1.2rem;
+    height: 1.5rem;
+}
+
+.form-submit-obertka {
+    width: 70%;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-submit {
+    height: 2rem;
+    width: 5rem;
+}
+
+body {
+    font-size: 16px;
+
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+    padding: 0 20px;
+
+    margin-bottom: 20px;
+    height: 80px;
+
+    border-bottom: rgb(216, 3, 3) 3px solid;
+    background-color: rgb(114, 131, 204);
+}
+
+.logo {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+
+    padding: 3px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+
+    font-weight: bold;
+}
+
+.user {
+    padding-left: 40pxm;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login .signup {
+    padding: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+
+    height: 200px;
+    background-color: #555;
+    width: 100%;
+
+    font-size: 18px;
+    color: #fff;
+
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
