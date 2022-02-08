@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.white-blue {
+    color: #5cbaf1;
+}
+
+.little-blue {
+    color: #448db3;
+}
+
+.light-green {
+    color: #95c741;
+}
+
+.green {
+    color: #64914c;
+}
+
+.pomidoro {
+    color: #ea6a43;
+}
+
+.brick {
+    color: #c16341;
+}
+
+body {
+    font-size: 16px;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    border-bottom: rgb(216, 3, 3) 3px solid;
+    background-color: rgb(114, 131, 204);
+}
+
+.logo {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+    padding: 3px;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.user {
+    padding-left: 40pxm;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.login .signup {
+    padding: 10px;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 200px;
+    background-color: #555;
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.sheet {
+    flex-direction: row;
+    padding: 0 100px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: start;
+}
+
+.signin {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.block {
+    display: flex;
+    padding-bottom: 32px;
+    flex-direction: column;
+}
+
+.sheet-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.selement-description {
+    margin-bottom: 3px;
+    color: #999;
+}
+
+.selement {
+    flex-direction: column;
+    padding-top: 8px;
+    display: flex;
+}
+
+.selement-command {
+    font-weight: 700;
+    font-family: "Courier New", Courier, monospace;
+}
